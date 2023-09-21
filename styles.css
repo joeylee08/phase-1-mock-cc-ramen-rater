@@ -35,6 +35,13 @@ header {
   cursor: pointer;
 }
 
+#ramen-menu img:hover {
+  z-index: 1;
+  flex: 0 1 auto;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
 #ramen-menu img:last-child {
   margin-right: 0;
 }
